@@ -36,6 +36,7 @@ public class PKCS11Util {
     public static void main(String[] args) throws KeyStoreException, NoSuchProviderException {
         try {
 
+            /* 
             String configName = "/Users/bbassey/work/pkcs11/pkcs11.cfg";
 
             Provider pkcs11Provider = Security.getProvider("SunPKCS11");
@@ -81,7 +82,7 @@ public class PKCS11Util {
             } else {
                 System.out.println("No aliases found in the KeyStore.");
             }
-
+*/
         } catch (Exception e) {
             e.printStackTrace();
         }
